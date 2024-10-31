@@ -4,7 +4,7 @@ import java.util.StringTokenizer;
 
 public class Example2 {
     public static void main(String[] args) {
-        String[] lista = {"Juan","Marcos","Carlos","Matias"};
+        String[] lista = {"Juan","Marcos","Carlos","Matias", "Bob", "Billy"};
         StringBuilder cadena = new StringBuilder();
         Arrays.stream(lista).forEach(x -> {
             cadena.append(x+"|");
